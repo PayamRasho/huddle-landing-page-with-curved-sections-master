@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
-}
+} */
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 100%);
 }
 
 nav {
@@ -126,5 +126,27 @@ h3{
 }
 .footer-icons{
     display: flex;
-    /* justify-content: space-between; */
+    gap: 20px;
+
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+input{
+  padding: 18px 30px;
+  border-radius: 15px;
+  font-size: 18px;
+
+}
+
+form button{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 18px 30px;
+  font-size: 18px;
+  border-radius: 15px;
+  outline: none;
 }
