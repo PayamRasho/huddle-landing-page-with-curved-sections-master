@@ -12,10 +12,16 @@
   color: hsl(0, 0%, 100%);
 }
 
+
+.main-h{
+  font-size: 50px;
+  padding: 60px 0 20px 0;
+
+}
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 50px;
 }
 
 nav button {
@@ -31,9 +37,13 @@ nav button {
   padding: 20px 60px;
   border-radius: 35px;
   border: none;
+  margin: 50px;
+  font-weight: 600;
+  font-size: 20px;
+
 }
-.pink-button:hover{
-    opacity: 0.6;
+.pink-button:hover {
+  opacity: 0.6;
 }
 
 .main-screen {
@@ -47,6 +57,8 @@ nav button {
 .main-screen p {
   max-width: 400px;
   text-align: center;
+  margin: 50px;
+
 }
 
 .second-sec {
@@ -72,77 +84,73 @@ nav button {
   opacity: 0.6;
 }
 
-
-.sections{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: hsl(207, 100%, 98%);
+.sections {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: hsl(207, 100%, 98%);
 }
 
-.sections h2{
-    color: hsl(192, 100%, 9%);
+.sections h2 {
+  color: hsl(192, 100%, 9%);
 }
-.sections img{
-    height: 300px;
-    /* width: 300px; */
+.sections img {
+  height: 300px;
+  /* width: 300px; */
 }
-.sections-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.sections-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.sections-text p{
-    max-width: 300px;
+.sections-text p {
+  max-width: 300px;
 }
-.sections-text h2{
-font-size: 40px;}
-
-.top-img{
-    margin-bottom: -10px;
+.sections-text h2 {
+  font-size: 40px;
 }
 
-.sp-img{
-    order: -1;
+.top-img {
+  margin-bottom: -10px;
 }
 
-
-h3{
-    font-size: 35px;
+.sp-img {
+  order: -1;
 }
 
-
-.footer{
-    background-color: hsl(192, 100%, 9%);
-    color: white;
-    display: flex;
-    padding: 55px;
-    gap: 150px;
-
-}
-.tops{
-    width: 100%;
-}
-.footer-icons{
-    display: flex;
-    gap: 20px;
-
+h3 {
+  font-size: 35px;
 }
 
-form{
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  display: flex;
+  padding: 55px;
+  gap: 150px;
+}
+.tops {
+  width: 100%;
+  /* width: calc(100%-200px); */
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+form {
   display: flex;
   align-items: center;
 }
 
-input{
+input {
   padding: 18px 30px;
   border-radius: 15px;
   font-size: 18px;
-
 }
 
-form button{
+form button {
   background-color: hsl(322, 100%, 66%);
   color: white;
   padding: 18px 30px;
@@ -150,3 +158,8 @@ form button{
   border-radius: 15px;
   outline: none;
 }
+
+
+/* footer div{
+  padding: 10px;
+} */
